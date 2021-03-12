@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
+    <ProjectGuid>{E5EAB966-3040-4361-B540-13FF653C1979}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>NBALeague</RootNamespace>
+    <AssemblyName>NBALeague</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|anycpu' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Domain\Entity.cs" />
+    <Compile Include="Domain\Elev.cs" />
+    <Compile Include="Domain\Echipa.cs" />
+    <Compile Include="Domain\Jucator.cs" />
+    <Compile Include="Domain\Meci.cs" />
+    <Compile Include="Domain\JucatorActiv.cs" />
+    <Compile Include="Domain\Validator\IValidator.cs" />
+    <Compile Include="Domain\Validator\ElevValidator.cs" />
+    <Compile Include="Domain\Validator\ValidationException.cs" />
+    <Compile Include="Domain\Validator\JucatorValidator.cs" />
+    <Compile Include="Domain\Validator\EchipaValidator.cs" />
+    <Compile Include="Domain\Validator\JucatorActivValidator.cs" />
+    <Compile Include="Domain\Validator\MeciValidator.cs" />
+    <Compile Include="Repository\IRepository.cs" />
+    <Compile Include="Repository\InMemoryRepository.cs" />
+    <Compile Include="Repository\RepoException.cs" />
+    <Compile Include="Repository\InFileRepository.cs" />
+    <Compile Include="Repository\DataReader.cs" />
+    <Compile Include="Repository\ElevInFileRepository.cs" />
+    <Compile Include="Domain\EntityToFileMapping.cs" />
+    <Compile Include="Repository\EchipaInFileRepository.cs" />
+    <Compile Include="Repository\MeciInFileRepository.cs" />
+    <Compile Include="Repository\JucatorInFileRepository.cs" />
+    <Compile Include="Repository\JucatorActivInFileRepository.cs" />
+    <Compile Include="Service\SuperService.cs" />
+    <Compile Include="Domain\JucatorActivDTO.cs" />
+    <Compile Include="UI\UI.cs" />
+    <Compile Include="UI\UIException.cs" />
+    <Compile Include="Domain\ScorDTO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Domain\Validator\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Service\" />
+    <Folder Include="UI\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\elevi.txt" />
+    <None Include="Data\echipe.txt" />
+    <None Include="Data\jucatori.txt" />
+    <None Include="Data\meciuri.txt" />
+    <None Include="Data\jucatoriActivi.txt" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

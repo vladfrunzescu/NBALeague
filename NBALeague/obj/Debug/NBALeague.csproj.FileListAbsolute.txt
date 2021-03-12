@@ -1,0 +1,7 @@
+/Users/vladfrunzescu/Documents/An II/Semestrul I/MAP/NBALeague/NBALeague/bin/Debug/NBALeague.exe
+/Users/vladfrunzescu/Documents/An II/Semestrul I/MAP/NBALeague/NBALeague/bin/Debug/NBALeague.pdb
+/Users/vladfrunzescu/Documents/An II/Semestrul I/MAP/NBALeague/NBALeague/obj/Debug/NBALeague.csprojAssemblyReference.cache
+/Users/vladfrunzescu/Documents/An II/Semestrul I/MAP/NBALeague/NBALeague/obj/Debug/NBALeague.csproj.CoreCompileInputs.cache
+/Users/vladfrunzescu/Documents/An II/Semestrul I/MAP/NBALeague/NBALeague/obj/Debug/NBALeague.exe
+/Users/vladfrunzescu/Documents/An II/Semestrul I/MAP/NBALeague/NBALeague/obj/Debug/NBALeague.pdb
+/Users/vladfrunzescu/Documents/An II/Semestrul I/MAP/NBALeague/NBALeague/bin/Debug/NBALeague.exe.config

@@ -1,0 +1,28 @@
+e1,Houston Rockets
+e2,Los Angeles Lakers
+e3,LA Clippers
+e4,Chicago Bulls
+e5,Cleveland Cavaliers
+e6,Utah Jazz
+e7,Brooklyn Nets
+e8,New Orleans Pelicans
+e9,Indiana Pacers
+e10,Toronto Raptors
+e11,Charlotte Hornets
+e12,Phoenix Suns
+e13,Portland TrailBlazers
+e14,Golden State Warriors
+e15,Washington Wizards
+e16,San Antonio Spurs
+e17,Orlando Magic
+e18,Denver Nuggets
+e19,Detroit Pistons
+e20,Atlanta Hawks
+e21,Dallas Mavericks
+e22,Sacramento Kings
+e23,Oklahoma City Thunder
+e24,Boston Celtics
+e25,New York Knicks
+e26,Minnesota Timberwolves
+e27,Miami Heat
+e28,Milwaukee Bucks
